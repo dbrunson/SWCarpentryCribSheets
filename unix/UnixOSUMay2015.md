@@ -2,27 +2,25 @@
 ####Oklahoma State University, May 2015
 ####Kate L Hertweck, University of Texas at Tyler
 
-####Before class:
-* set up shell:
-  * enlarge text size
-  * `export PS1='$ '`
-  * `export PROMPT_COMMAND="history 1 >> ~/Dropbox/UnixHistory.txt"`
-* students check software installation: Unix, git (with XCode) and Python for Day 1
+#### edited by Dana jan 2016 with notes for doing all this on HPC system
 
-**Intro to Software Carpentry:** http://swcarpentry.github.io/slideshows/introducing-software-carpentry/index.html#slide-0 
+####Before class:
+* set up putty - right click on top bar, change settings, 
+  * Window-Appearance menu, click Change... under font, 14 pt.
+  * Window-Colours menu, check "Use system colours" box
+  * click Apply
+  * Make sure bottom of terminal can be seen from back of class
+
+
+**Intro to Software Carpentry:** 
 
 ####Checklist for class:
-* class website: http://ouinformatics.github.io/2015-05-27-osu 
-* etherpad: https://etherpad.mozilla.org/2015-05-27-osu
-* Kate's history: https://www.dropbox.com/s/femrf7if1swjno6/UnixHistory.txt?dl=0
-* review of pre-class survey
-  * mixed audience, both novice/experienced and discplines
-  * if material is review for you, help by keeping notes on etherpad and helping your neighbor 
-  * scientific computing has a long history of being self taught, so most instructors even learn something new
+* class website: 
+* etherpad: 
+
 
 ####SETUP
-
-* slides: http://swcarpentry.github.io/shell-novice/motivation.html
+* Motivaton: https://swcarpentry.github.io/shell-novice/index.html  
 * most tasks in the shell can be done with mouse on Desktop. Why do anything differently?
 * motivation
   * Unix = old school system
@@ -33,6 +31,7 @@
 * get data
   * http://swcarpentry.github.io/shell-novice/shell-novice-data.zip, move to Desktop, double click to unzip (if not already done), folder named “data”, can get there using: cd && cd Desktop/shell-novice/data
   * cd, git clone https://github.com/ouinformatics/osu-data 
+  * On HPC: wget http://swcarpentry.github.io/shell-novice/shell-novice-data.zip && unzip shell-novice-data.zip
 
 ####INTRODUCING THE SHELL
 **Objectives:** orient to shell and how it relates to the computer, understand the benefit of CLI
